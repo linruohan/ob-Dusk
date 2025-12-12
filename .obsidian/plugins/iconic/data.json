@@ -1,0 +1,115 @@
+{
+  "biggerIcons": "on",
+  "clickableIcons": "off",
+  "showAllFileIcons": false,
+  "showAllFolderIcons": false,
+  "minimalFolderIcons": true,
+  "showItemName": "on",
+  "biggerSearchResults": "on",
+  "maxSearchResults": 50,
+  "colorPicker1": "list",
+  "colorPicker2": "rgb",
+  "uncolorHover": false,
+  "uncolorDrag": false,
+  "uncolorSelect": false,
+  "uncolorQuick": false,
+  "rememberDeletedItems": false,
+  "appIcons": {},
+  "tabIcons": {},
+  "fileIcons": {
+    "DAILY": {
+      "icon": "lucide-calendar-days",
+      "unsynced": [
+        "2c7aa49875209a3b",
+        "d030f7a43485680e",
+        "0f99cc85922a25fb",
+        "2bd4bfe2dea78798",
+        "c6bdae0e6107b209",
+        "295731f742b5e764",
+        "c244bb041cc80850",
+        "6978bbb83ae24958",
+        "3bdd518549b6bafe"
+      ]
+    },
+    "HUB": {
+      "icon": "lucide-globe",
+      "unsynced": [
+        "2c7aa49875209a3b",
+        "d030f7a43485680e",
+        "0f99cc85922a25fb",
+        "2bd4bfe2dea78798",
+        "c6bdae0e6107b209",
+        "295731f742b5e764",
+        "c244bb041cc80850",
+        "6978bbb83ae24958",
+        "3bdd518549b6bafe"
+      ]
+    },
+    "PARA": {
+      "icon": "lucide-land-plot",
+      "unsynced": [
+        "2c7aa49875209a3b",
+        "d030f7a43485680e",
+        "0f99cc85922a25fb",
+        "2bd4bfe2dea78798",
+        "c6bdae0e6107b209",
+        "295731f742b5e764",
+        "c244bb041cc80850",
+        "6978bbb83ae24958",
+        "3bdd518549b6bafe"
+      ]
+    },
+    "PARA/PROJECTS/测试项目1/1. 测试项目1.md": {
+      "icon": "lucide-circle"
+    },
+    "STICKY": {
+      "icon": "lucide-component",
+      "unsynced": [
+        "2c7aa49875209a3b",
+        "d030f7a43485680e",
+        "0f99cc85922a25fb",
+        "2bd4bfe2dea78798",
+        "c6bdae0e6107b209",
+        "295731f742b5e764",
+        "c244bb041cc80850",
+        "6978bbb83ae24958",
+        "3bdd518549b6bafe"
+      ]
+    },
+    "SYSTEM": {
+      "icon": "lucide-settings-2",
+      "unsynced": [
+        "2c7aa49875209a3b",
+        "d030f7a43485680e",
+        "0f99cc85922a25fb",
+        "2bd4bfe2dea78798",
+        "c6bdae0e6107b209",
+        "295731f742b5e764",
+        "c244bb041cc80850",
+        "6978bbb83ae24958",
+        "3bdd518549b6bafe"
+      ]
+    },
+    "ZETA": {
+      "icon": "lucide-library-big",
+      "unsynced": [
+        "2c7aa49875209a3b",
+        "d030f7a43485680e",
+        "0f99cc85922a25fb",
+        "2bd4bfe2dea78798",
+        "c6bdae0e6107b209",
+        "295731f742b5e764",
+        "c244bb041cc80850",
+        "6978bbb83ae24958",
+        "3bdd518549b6bafe"
+      ]
+    }
+  },
+  "bookmarkIcons": {},
+  "propertyIcons": {},
+  "ribbonIcons": {
+    "obsidian-custom-frames:Open Spotify": {
+      "icon": "lucide-music"
+    }
+  }
+}

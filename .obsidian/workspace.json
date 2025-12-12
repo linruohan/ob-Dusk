@@ -1,0 +1,329 @@
+{
+  "main": {
+    "id": "5324373015726ba8",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7a550d8bc0fb843",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bab5ec1c89f9b527",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "DAILY/DAILY/2025-12-12.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-12-12"
+            }
+          },
+          {
+            "id": "13beed6a49a793f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "HUB/Homepage.md",
+                "mode": "preview",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Homepage"
+            }
+          },
+          {
+            "id": "8d59716d3865f769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PARA/PROJECTS/测试项目1/1. 测试项目1.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "1. 测试项目1"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ceceeb2f82f72338",
+    "type": "split",
+    "children": [
+      {
+        "id": "d7b68441e64b0baf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "42f47640edf85bf7",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "093b3a738054e210",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
+          },
+          {
+            "id": "bd062dda8ed54586",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "36eafd802efe8962",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          },
+          {
+            "id": "e6ad23a05238fb45",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {},
+              "icon": "trash",
+              "title": "Trash explorer"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 366.5
+  },
+  "right": {
+    "id": "b8973fe758baa90b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3ada067b4619dcfd",
+        "type": "tabs",
+        "dimension": 33.48540145985402,
+        "children": [
+          {
+            "id": "9928f8f1b8b3184d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "DAILY/DAILY/2025-12-12.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": false,
+                  "showArrow": false,
+                  "textFadeMultiplier": -1.2,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.5087618855792608,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "2025-12-12 的关系图"
+            }
+          },
+          {
+            "id": "6bf45c4c9963e3b0",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "c0698ab85b3ddb7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "203f2050711ef78f",
+        "type": "tabs",
+        "dimension": 66.51459854014598,
+        "children": [
+          {
+            "id": "e049448fbd7302bd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "DAILY/DAILY/2025-12-12.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "2025-12-12 的大纲"
+            }
+          },
+          {
+            "id": "d2ae3142c734102c",
+            "type": "leaf",
+            "state": {
+              "type": "todo",
+              "state": {},
+              "icon": "checkmark",
+              "title": "Todo List"
+            }
+          },
+          {
+            "id": "d3f0a540ef0b4703",
+            "type": "leaf",
+            "state": {
+              "type": "timer-view",
+              "state": {},
+              "icon": "timer",
+              "title": "Timer"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 446.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "command-palette:打开命令面板": false,
+      "bases:创建新数据库": false,
+      "obsidian42-brat:BRAT": false,
+      "custom-sort:Toggle custom sorting": false,
+      "homepage:Open homepage": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-projects:打开项目": false,
+      "pomodoro-timer:Toggle timer panel": false,
+      "omnisearch:Omnisearch": false,
+      "journals:Open today's note": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "obsidian-custom-frames:Open Todoist": false,
+      "obsidian-custom-frames:Open ChatGPT": false,
+      "obsidian-custom-frames:Open YouTube": false
+    }
+  },
+  "active": "13beed6a49a793f4",
+  "lastOpenFiles": [
+    "DAILY/DAILY/2025-12-12.md",
+    "PARA/PROJECTS/测试项目1/1. 测试项目1.md",
+    "HUB/Mail Box.md",
+    "SYSTEM/GETTING STARTED/Getting Started.md",
+    "SYSTEM/GETTING STARTED/Vault Onboarding Part 4 - Setting up on Mobile.md",
+    "SYSTEM/GETTING STARTED/Vault Onboarding Part 1  - Very Important Setup.md",
+    "SYSTEM/GETTING STARTED/Concept Inspiration and Reference.md",
+    "SYSTEM/GETTING STARTED/Vault Walkthrough - Concept Map.md",
+    "SYSTEM/GETTING STARTED/Vault Onboarding Part 3 - Main Features.md",
+    "SYSTEM/GETTING STARTED/Vault Onboarding Part 2 - Structure Concept.md",
+    "PARA/PROJECTS/测试项目1",
+    "HUB/Map of Content.md",
+    "HUB/Homepage.md",
+    "PARA/RESOURCES/CONCEPT MAP/Chatbot Diagram.md",
+    "PARA/RESOURCES/MEETINGS/GENERAL/11-12 - Artificial Intelligence in Autonomous Vehicles.md",
+    "PARA/AREAS/思考/2. 思考.md",
+    "PARA/RESOURCES/DOCUMENTATIONS/Collaboration Framework for Joint Ventures in Emerging Technology.md",
+    "PARA/RESOURCES/CONTACTS/Elon Musk.md",
+    "PARA/AREAS/生活/2. 生活.md",
+    "PARA/AREAS/思考",
+    "PARA/AREAS/学习/2. 学习.md",
+    "PARA/AREAS/生活",
+    "PARA/AREAS/工作/2. 工作.md",
+    "PARA/AREAS/学习",
+    "PARA/WORKSTATION/Adjusting Marketing Strategy.md",
+    "PARA/AREAS/工作",
+    "PARA/WORKSTATION/Tackling Code Integration Issues.md",
+    "PARA/WORKSTATION/UX Design Challenges.md",
+    "SYSTEM/MOBILE HUB/Mobile Map of Content.md",
+    "SYSTEM/MOBILE HUB/Mobile Mail Box.md",
+    "SYSTEM/MOBILE HUB/Mobile Homepage.md",
+    "PARA/AREAS/testing",
+    "SYSTEM/GETTING STARTED/Onboarding Media/Getting Started.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/image.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/image_1.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/image_0.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/onboarding media  image_1.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/onboarding media  image_0.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/onboarding media image.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/image_36.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/image_29.png",
+    "SYSTEM/GETTING STARTED/Onboarding Media/keyboard.png",
+    "Excalidraw",
+    "PARA/AREAS/test file",
+    "PARA/AREAS/test",
+    "PARA/PROJECTS/Autonomous Vehicle AI Ethics",
+    "Untitled.canvas"
+  ]
+}

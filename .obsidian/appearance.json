@@ -1,0 +1,19 @@
+{
+  "cssTheme": "Catppuccin",
+  "accentColor": "#ba4949",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Maple Mono Normal NF CN",
+  "textFontFamily": "Maple Mono Normal NF CN",
+  "monospaceFontFamily": "FantasqueSansM Nerd Font",
+  "enabledCssSnippets": [
+    "base",
+    "Gradient Callouts",
+    "MCL Gallery Cards",
+    "MCL Multi Column",
+    "MCL Wide Views",
+    "show-hover-title",
+    "datacore-classes",
+    "file-explorer-wrap"
+  ],
+  "showRibbon": true
+}
