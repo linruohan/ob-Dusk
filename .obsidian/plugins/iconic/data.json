@@ -4,6 +4,13 @@
   "showAllFileIcons": false,
   "showAllFolderIcons": false,
   "minimalFolderIcons": true,
+  "showMarkdownTabIcons": true,
+  "showTitleIcons": true,
+  "showTagPillIcons": true,
+  "showMenuActions": true,
+  "showSuggestionIcons": true,
+  "showQuickSwitcherIcons": true,
+  "showMoveFileIcons": true,
   "showItemName": "on",
   "biggerSearchResults": "on",
   "maxSearchResults": 50,
@@ -14,6 +21,11 @@
   "uncolorSelect": false,
   "uncolorQuick": false,
   "rememberDeletedItems": false,
+  "dialogState": {
+    "iconMode": true,
+    "emojiMode": false,
+    "rulePage": "file"
+  },
   "appIcons": {},
   "tabIcons": {},
   "fileIcons": {
@@ -28,7 +40,8 @@
         "295731f742b5e764",
         "c244bb041cc80850",
         "6978bbb83ae24958",
-        "3bdd518549b6bafe"
+        "3bdd518549b6bafe",
+        "e48d6f6a75497559"
       ]
     },
     "HUB": {
@@ -42,7 +55,8 @@
         "295731f742b5e764",
         "c244bb041cc80850",
         "6978bbb83ae24958",
-        "3bdd518549b6bafe"
+        "3bdd518549b6bafe",
+        "e48d6f6a75497559"
       ]
     },
     "PARA": {
@@ -56,7 +70,8 @@
         "295731f742b5e764",
         "c244bb041cc80850",
         "6978bbb83ae24958",
-        "3bdd518549b6bafe"
+        "3bdd518549b6bafe",
+        "e48d6f6a75497559"
       ]
     },
     "PARA/PROJECTS/测试项目1/1. 测试项目1.md": {
@@ -73,7 +88,8 @@
         "295731f742b5e764",
         "c244bb041cc80850",
         "6978bbb83ae24958",
-        "3bdd518549b6bafe"
+        "3bdd518549b6bafe",
+        "e48d6f6a75497559"
       ]
     },
     "SYSTEM": {
@@ -87,7 +103,8 @@
         "295731f742b5e764",
         "c244bb041cc80850",
         "6978bbb83ae24958",
-        "3bdd518549b6bafe"
+        "3bdd518549b6bafe",
+        "e48d6f6a75497559"
       ]
     },
     "ZETA": {
@@ -101,15 +118,19 @@
         "295731f742b5e764",
         "c244bb041cc80850",
         "6978bbb83ae24958",
-        "3bdd518549b6bafe"
+        "3bdd518549b6bafe",
+        "e48d6f6a75497559"
       ]
     }
   },
   "bookmarkIcons": {},
+  "tagIcons": {},
   "propertyIcons": {},
   "ribbonIcons": {
     "obsidian-custom-frames:Open Spotify": {
       "icon": "lucide-music"
     }
-  }
+  },
+  "fileRules": [],
+  "folderRules": []
 }

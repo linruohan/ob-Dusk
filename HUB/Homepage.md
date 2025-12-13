@@ -9,7 +9,7 @@ cssclasses:
 `````````````tabs
 tab: O
 `BUTTON[open_moc]` `BUTTON[open_daily_note]` `BUTTON[create_new_note]` `BUTTON[quick_switcher]` `BUTTON[open_inbox]`  
-tab: ........................................................................................................................
+tab: ..........................................................................
 tab: O
 > [!custom_task|float-left]- Note Task
 >> ````tabs
@@ -414,7 +414,7 @@ limit 15
 ```
 ````
 `````
-tab: ........................................................................................................................
+tab: ..........................................................................
 `INPUT[textArea(class(meta-bind-full-width), class(meta-bind-high)):textArea1]`
 tab: O
 ```custom-frames

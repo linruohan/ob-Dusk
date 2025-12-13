@@ -1,7 +1,7 @@
 {
   "cssTheme": "Catppuccin",
-  "accentColor": "#ba4949",
-  "theme": "obsidian",
+  "accentColor": "#b007ed",
+  "theme": "moonstone",
   "interfaceFontFamily": "Maple Mono Normal NF CN",
   "textFontFamily": "Maple Mono Normal NF CN",
   "monospaceFontFamily": "FantasqueSansM Nerd Font",
@@ -15,5 +15,6 @@
     "datacore-classes",
     "file-explorer-wrap"
   ],
-  "showRibbon": true
+  "showRibbon": true,
+  "baseFontSize": 13
 }
