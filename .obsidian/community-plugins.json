@@ -27,7 +27,6 @@
   "note-toolbar",
   "nldates-obsidian",
   "obsidian-meta-bind-plugin",
-  "js-engine",
   "journals",
   "iconic",
   "obsidian-grandfather",
@@ -42,5 +41,6 @@
   "obsidian-chartsview-plugin",
   "obsidian-image-toolkit",
   "darlal-switcher-plus",
-  "remember-cursor-position"
+  "remember-cursor-position",
+  "obsidian-react-components"
 ]
