@@ -7,7 +7,6 @@
   "datacore",
   "dataview",
   "editing-toolbar",
-  "obsidian-view-mode-by-frontmatter",
   "obsidian-hider",
   "homepage",
   "obsidian-hotkeys-for-specific-files",
@@ -24,10 +23,8 @@
   "pomodoro-timer",
   "obsidian-outliner",
   "omnisearch",
-  "note-toolbar",
   "nldates-obsidian",
   "obsidian-meta-bind-plugin",
-  "journals",
   "iconic",
   "obsidian-grandfather",
   "obsidian-excalidraw-plugin",
@@ -42,5 +39,9 @@
   "obsidian-image-toolkit",
   "darlal-switcher-plus",
   "obsidian-react-components",
-  "js-engine"
+  "js-engine",
+  "tasks-calendar-wrapper",
+  "obsidian-view-mode-by-frontmatter",
+  "note-toolbar",
+  "journals"
 ]

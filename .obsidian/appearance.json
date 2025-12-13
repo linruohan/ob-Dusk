@@ -30,7 +30,8 @@
     "【主页设置】homepage setting",
     "【主页设置移动端】homepage setting media mobile",
     "【AD优化】admonitions",
-    "homepage.setting"
+    "homepage.setting",
+    "搜索上下文按钮一行展示"
   ],
   "showRibbon": true,
   "baseFontSize": 13

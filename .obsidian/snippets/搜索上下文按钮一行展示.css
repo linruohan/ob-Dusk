@@ -1,0 +1,31 @@
+/* 搜索选项 */
+.search-params {
+    display: flex;
+    /* 平均分 */
+    justify-content: space-around;
+
+    /* 隐藏原始文本 */
+    .setting-item-info .setting-item-name {
+        display: none;
+    }
+
+    /* 自定义显示文本 */
+    .setting-item .setting-item-info {
+        margin-right: 0.5em;
+        &::before {
+            font-size: var(--font-ui-small);
+        }
+    }
+
+    .setting-item:nth-child(1) .setting-item-info::before {
+        content: "折叠结果";
+    }
+
+    .setting-item:nth-child(2) .setting-item-info::before {
+        content: "显示上下文";
+    }
+
+    .setting-item:nth-child(3) .setting-item-info::before {
+        content: "搜索说明";
+    }
+}
