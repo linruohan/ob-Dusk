@@ -13,6 +13,7 @@ div.statusbar-organizer-presets-container {
 
 div.statusbar-organizer-rows-container-wrapper {
   width: 100%;
+  position: relative;
 }
 
 div.statusbar-organizer-rows-container {
@@ -117,6 +118,12 @@ span.statusbar-organizer-row-handle {
   cursor: move;
 }
 
+span.statusbar-organizer-row-title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
 span.statusbar-organizer-row-handle::after {
   content: '·· ·· ·· ··';
   display: inline-block;
@@ -143,7 +150,7 @@ span.statusbar-organizer-row-visibility {
 }
 
 div.statusbar-organizer-row-drag {
-  position: fixed;
+  position: absolute;
   background: var(--background-modifier-active-hover)
 }
 

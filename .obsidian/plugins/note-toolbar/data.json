@@ -1,4 +1,7 @@
 {
+  "debugEnabled": false,
+  "editorMenuToolbar": null,
+  "emptyViewToolbar": null,
   "export": {
     "includeIcons": true,
     "replaceVars": true,
@@ -80,8 +83,28 @@
     }
   ],
   "icon": "lucide-brain",
+  "keepPropsState": false,
+  "lockCallouts": false,
+  "onboarding": {
+    "new-toolbar-mapping": true
+  },
   "ribbonAction": "item-suggester",
+  "rules": [],
+  "scriptingEnabled": false,
   "showEditInFabMenu": false,
+  "showLaunchpad": false,
+  "showToolbarIn": {
+    "audio": false,
+    "bases": false,
+    "canvas": false,
+    "image": false,
+    "kanban": false,
+    "pdf": false,
+    "video": false
+  },
+  "showToolbarInFileMenu": false,
+  "showToolbarInOther": "",
+  "textToolbar": null,
   "toolbarProp": "",
   "toolbars": [
     {
@@ -128,7 +151,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "3369f1f0-05d7-4ff5-b054-6529e492bbc4",
@@ -166,7 +190,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "0e20e81a-c1a5-4f04-9b48-ae7e491ee11c",
@@ -204,7 +229,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "15e38a61-26c6-4c39-8108-d948befe4c86",
@@ -242,7 +268,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -314,7 +341,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "fc98ca32-fec0-437d-bbbc-15230bda7714",
@@ -352,7 +380,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "0fd9717e-c1b2-43ca-84dd-26a578ba9a27",
@@ -390,7 +419,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "c2bb9674-0fd3-4bd0-90c2-f949a27b2ca6",
@@ -428,7 +458,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -500,7 +531,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "5756d458-cbd3-4f34-afad-20ad7a8396d8",
@@ -538,7 +570,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "1a967a89-18c6-4ee9-b63f-7358cd46a25f",
@@ -576,7 +609,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "56f722aa-daf7-4926-8414-2bae9e8df4b3",
@@ -614,7 +648,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "bd02f85b-8067-45aa-bed7-b24159662142",
@@ -652,7 +687,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "ab372d05-8890-4113-bb63-cc37b7f30596",
@@ -690,7 +726,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "ba753453-a3e6-489d-9d30-afe15b229234",
@@ -728,7 +765,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "a71d106a-6729-42f2-b3d8-96760964b783",
@@ -766,7 +804,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "736e5229-88ba-45ab-8372-acd9bd7be2c0",
@@ -804,7 +843,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -873,7 +913,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "2216eb65-ec3f-4b4f-8302-29bfc266c10e",
@@ -908,7 +949,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "424ec613-90b1-4a5d-a72c-0ffd98a60536",
@@ -946,7 +988,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "8f4adf02-0f3a-499a-8421-163612aede53",
@@ -984,7 +1027,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "d84f125b-7959-42de-b8c4-4e85e57ab0d7",
@@ -1022,7 +1066,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "9f332582-4870-4e7e-b2e4-388675d51e17",
@@ -1060,7 +1105,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "18e60359-7064-43bc-9a52-875275d95c90",
@@ -1098,7 +1144,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "2c725a6d-a752-4979-a28c-3b2a813c3711",
@@ -1136,7 +1183,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "a8cb95b1-53dc-44b9-9a99-8b8c00907531",
@@ -1174,7 +1222,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "20e8642a-8fdc-4205-9941-9e379d8d2f46",
@@ -1212,7 +1261,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "e04cc058-c9aa-4971-9182-eb8b73544ec5",
@@ -1250,7 +1300,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "6879a87a-da62-4a66-8e7f-dd8a883004b5",
@@ -1288,7 +1339,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "9ede7260-ce9b-4212-9cf7-1c482bde99cc",
@@ -1326,7 +1378,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "0ac02a17-2d6b-4c86-a610-a218c69f3b3d",
@@ -1364,7 +1417,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "c1ee4a9f-98d7-470a-80cf-26b49c16ccf9",
@@ -1402,7 +1456,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "bcc1ee46-caa3-4de6-8147-6060b3852428",
@@ -1440,7 +1495,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -1512,7 +1568,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "d40486ae-134e-45a5-8fb8-34ea74a04ee4",
@@ -1550,7 +1607,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "4c837d54-ed65-465b-8856-aec87a509059",
@@ -1588,7 +1646,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "1151a9d5-4bbf-466b-9fe9-fc8f20e231c6",
@@ -1626,7 +1685,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -1695,7 +1755,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "b854bac6-e8a4-473d-98fa-673499ad0085",
@@ -1730,7 +1791,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "96e8a067-f1ff-4b0f-af68-a5d4f43a7c0d",
@@ -1768,7 +1830,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "969e6418-48fd-424a-af87-74133a1fd8be",
@@ -1806,7 +1869,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "4b50c7a0-487a-4e7e-a8b3-5d9c235b4d08",
@@ -1844,7 +1908,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "f7b161bd-4529-4c55-bce0-208cc3aadd11",
@@ -1882,7 +1947,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "d7897d96-31e3-44d4-a129-62cbbb13609b",
@@ -1920,7 +1986,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "23977223-5fd5-45df-a482-c4e5842cc58a",
@@ -1958,7 +2025,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "7903a521-0846-491d-adc7-637174699921",
@@ -1996,7 +2064,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "11309934-2b0b-4604-af78-1bbd1d6c4a9b",
@@ -2034,7 +2103,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "94e56162-1124-4792-92fb-061836e9cc07",
@@ -2072,7 +2142,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "304db4e1-cea1-45a8-a3b3-f32017f2e22c",
@@ -2110,7 +2181,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "1b604109-482f-42fd-be00-c40cbe7f52c4",
@@ -2148,7 +2220,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "33199145-f90f-44f4-87a7-48563a2fb7cc",
@@ -2186,7 +2259,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -2255,7 +2329,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "48aca4d6-b1ff-4a29-aa39-708df697fd03",
@@ -2290,7 +2365,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "334730e1-0edb-45b8-aa97-2cf60794edac",
@@ -2328,7 +2404,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "8dc9fbbc-f432-413c-b061-c87cf311ad23",
@@ -2366,7 +2443,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "d72e8b08-7dd1-4238-a1c6-bbd2c383b1ea",
@@ -2404,7 +2482,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "8416a98d-be3e-4cd8-90d8-56ecb43f2bb3",
@@ -2442,7 +2521,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "8ac5560f-7685-4910-bd2e-fc61044d4f64",
@@ -2480,7 +2560,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "45e61cea-7614-47ff-981e-a53ca99d39cd",
@@ -2518,7 +2599,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "f7048e19-de4f-41d9-b085-cb0093ae090c",
@@ -2556,7 +2638,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "c4bc195a-4184-42e8-97ff-64468edd4054",
@@ -2594,7 +2677,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "1d0a98f2-4d2a-4b03-afc9-19fae7a854db",
@@ -2632,7 +2716,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "a343805d-6735-4d87-9ae5-3dfb2d98c00b",
@@ -2670,7 +2755,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "c95c9dcb-253b-4b63-99e7-3cdf050b01d4",
@@ -2708,7 +2794,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "f517ea53-3976-4405-850f-c50fbf008dc2",
@@ -2746,7 +2833,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "07181e3e-bc63-4a2a-abb5-6406d44edee0",
@@ -2784,7 +2872,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "ad82a8a1-d3e6-4a4b-b90d-3bb939c11249",
@@ -2822,7 +2911,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "6b9eb3ee-de90-48e8-8334-564ca09096fc",
@@ -2860,7 +2950,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "db040e11-d85c-4bbb-af0f-138c5e5a9620",
@@ -2898,7 +2989,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -2970,7 +3062,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "490f284a-6075-4da4-ab29-5d4dfadfcd14",
@@ -3008,7 +3101,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "921556b0-3ad7-4e1a-bdf1-29d7d2cdc950",
@@ -3046,7 +3140,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "75cd6ed7-3137-4375-b539-311d09120cf5",
@@ -3084,7 +3179,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -3153,7 +3249,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "d06747e8-7025-4e53-bc6b-4f39b1373ead",
@@ -3188,7 +3285,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "cbeb851f-cf65-4316-852d-825297f04727",
@@ -3226,7 +3324,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "6ce88280-5223-4a05-be39-87c4ee064d62",
@@ -3264,7 +3363,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "dba745c6-a039-4c07-b5e8-5963eb2d447e",
@@ -3302,7 +3402,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "495f4bd0-8837-47ab-9788-cac263895b66",
@@ -3340,7 +3441,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "f83d70ff-8144-44f3-868f-9fc539706f2f",
@@ -3378,7 +3480,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "a94e0ca0-147c-4d40-8ece-66b3faf44f9f",
@@ -3416,7 +3519,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "31f50076-415e-48df-b962-cde92f558f00",
@@ -3454,7 +3558,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "f14b5d72-c1a3-4651-9820-e7fbd9bdf66c",
@@ -3492,7 +3597,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "e7171767-b4fc-49d3-8090-4a5589295a3e",
@@ -3530,7 +3636,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "2fc6a51f-f6ee-4723-98aa-d767670fe38e",
@@ -3568,7 +3675,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "011c4f77-e0f4-4177-ab7a-b6fbe9589466",
@@ -3606,7 +3714,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "463cfd36-0eeb-4b77-bc0b-b8f384b10ccf",
@@ -3644,7 +3753,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "ecb32dd9-3f71-4bdb-ad57-0e7fa7e6154a",
@@ -3682,7 +3792,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "1f54fff4-a7f7-4433-beb9-a96305a390b6",
@@ -3720,7 +3831,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -3792,7 +3904,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "a1d8c2b3-5f39-42e0-a33a-fc613b18a1a1",
@@ -3830,7 +3943,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "0c9bd928-6e02-43e8-9f68-f46a9e17d49b",
@@ -3868,7 +3982,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "2bd04cc0-b483-4659-b42c-865a633a1305",
@@ -3906,7 +4021,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "7778e1a4-fc95-436d-bab8-86bcc0802f67",
@@ -3944,7 +4060,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "982a4554-7e8c-49cd-b00f-002ce999cca5",
@@ -3982,7 +4099,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "22116590-af3f-41bb-8201-d7766f5dbe6f",
@@ -4020,7 +4138,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "8175248d-5a98-413a-b2f5-0124283b8672",
@@ -4058,7 +4177,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "c3df6418-fd01-45e9-8fda-a225569f1313",
@@ -4096,7 +4216,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "17d37aaf-f532-4d69-a2a6-6696492612d5",
@@ -4134,7 +4255,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         },
         {
           "uuid": "10843f8c-9e3a-4ddd-ae85-b26b8883ab5d",
@@ -4172,7 +4294,8 @@
                 ]
               }
             }
-          }
+          },
+          "inGallery": false
         }
       ],
       "mobileStyles": [
@@ -4201,6 +4324,6 @@
       "updated": "2024-10-08T14:04:52.012Z"
     }
   ],
-  "version": 20240727.1,
+  "version": 20250313.1,
   "whatsnew_version": 1.14
 }

@@ -502,13 +502,13 @@ var en_default = {
   close_password_protection: "Unlock password protection",
   open_password_protection: "Lock password protection",
   password_protection_opened: "Password protection is locked!",
-  password_protection_closed: "Password protection is unlocked!",
+  password_protection_closed: "Password verification passed.",
   notice_set_password: "Please set the password in the settings page for the Password Protection Plugin first!",
-  setting_folder_name: "Protected Folder",
-  setting_folder_desc: "With relative paths, the '/' is the root path of the vault",
-  place_holder_enter_path: "Enter path",
+  setting_folder_name: "Protected folder or file",
+  setting_folder_desc: "The default value '/' is the root path of the vault",
+  place_holder_enter_path: "Enter path, e.g. mynotes/diary",
   setting_toggle_name: "Enable/Disable password protection",
-  setting_toggle_desc: "Enable the protection you need to use the password, to disable it need to verify your password.",
+  setting_toggle_desc: "To enable password protection you will set your password, to disable it you will need to verify your password.",
   hint_enter_in_both_boxes: "Please enter your password in both boxes.",
   hint_password_must_match: "Passwords must match.",
   hint_password_length: "Password must contain valid characters and must be 1-20 characters long.",
@@ -524,27 +524,70 @@ var en_default = {
   password_is_right: "Password is correct.",
   auto_lock_interval_name: "Auto-lock",
   auto_lock_interval_desc: "The number of minutes to wait before auto-locking since the protected file was opened.",
-  forbid_close_verify_modal_name: "Disable closing the password verify box if the password isn't correct",
-  forbid_close_verify_modal_desc: "This will allow more privacy, but if you forgot your password, you may not be able to view your notes.",
-  before_open_protection: "Turn on the switch below to enable password protection, and disable the options above.",
+  before_open_protection: "Turn on the above switch to enable password protection, and disable the below options.",
   setting_pwd_hint_question_name: "Password prompt",
   setting_pwd_hint_question_desc: "Please type a question to help you remember your password.",
-  place_holder_enter_pwd_hint_question: "Password prompt question"
+  place_holder_enter_pwd_hint_question: "Password prompt question",
+  setting_more_path: "More folders or files to be protected (up to 6)",
+  setting_add_path: "Add protected path",
+  setting_add_path_name: "Protected path",
+  setting_add_path_place_holder: "Enter path, e.g. mynotes/diary",
+  setting_remove_path: "Remove protected path"
+};
+
+// langs/es.json
+var es_default = {
+  ok: "ACEPTAR",
+  cancel: "Cancelar",
+  open: "Activar",
+  close_password_protection: "Activar protecci\xF3n con contrase\xF1a",
+  open_password_protection: "Desactivar protecci\xF3n con contrase\xF1a",
+  password_protection_opened: "\xA1Protecci\xF3n con contrase\xF1a est\xE1 bloqueada!",
+  password_protection_closed: "Verificaci\xF3n de contrase\xF1a aprobada!",
+  notice_set_password: "\xA1Introduzca la contrase\xF1a en preferencias para el complemento Protecci\xF3n con Contrase\xF1a primero!",
+  setting_folder_name: "Carpeta o archivo protegido",
+  setting_folder_desc: "El valor predeterminado '/' es la ruta ra\xEDz de la b\xF3veda",
+  place_holder_enter_path: "Introduzca la ruta, p. ej. Misnotas/diario",
+  setting_toggle_name: "Activar/Desactivar protecci\xF3n con contrase\xF1a",
+  setting_toggle_desc: "Para activar protecci\xF3n con contrase\xF1a, establecer\xE1s una contrase\xF1a, y para desactivar, tienes que verificarla.",
+  hint_enter_in_both_boxes: "Introduzca la contrase\xF1a en ambas casillas.",
+  hint_password_must_match: "Contrase\xF1as tienen que coincidir.",
+  hint_password_length: "Contrase\xF1a tiene que usar caracteres v\xE1lidos y contener 1-20 caracteres.",
+  hint_password_valid_character: "Contrase\xF1a contiene caracteres inv\xE1lidos.",
+  set_password_title: "Introduzca una contrase\xF1a para proteger una carpeta",
+  place_holder_enter_password: "Introduce contrase\xF1a, 1-20 caracteres",
+  confirm_password: "Confirmar la contrase\xF1a",
+  verify_password: "Verifique Contrase\xF1a",
+  enter_password: "Introduce la contrase\xF1a",
+  enter_password_to_verify: "Por favor, introduce la contrase\xF1a para desbloquear.",
+  password_is_empty: "Contrase\xF1a vac\xEDa.",
+  password_not_match: "Contrase\xF1as no coinciden.",
+  password_is_right: "Contrase\xF1a correcta.",
+  auto_lock_interval_name: "Bloqueo Autom\xE1tico",
+  auto_lock_interval_desc: "El n\xFAmero de minutos para esperar antes de bloquear autom\xE1tico desde que se abri\xF3 la nota protegido.",
+  before_open_protection: "Activar el interruptor de arriba para activar protecci\xF3n con contrase\xF1a y desactivar las opciones de abajo.",
+  setting_pwd_hint_question_name: "Mensaje para recordar",
+  setting_pwd_hint_question_desc: "Escribe una frase para ayudarte recordar la contrase\xF1a.",
+  place_holder_enter_pwd_hint_question: "Mensaje para recordar",
+  setting_more_path: "M\xE1s carpetas o archivos a proteger (hasta 6)",
+  setting_add_path: "A\xF1adir ruta protegida",
+  setting_add_path_name: "Ruta protegida",
+  setting_add_path_place_holder: "Introduzca la ruta, p. ej. Misnotas/diario",
+  setting_remove_path: "Eliminar ruta protegida"
 };
 
 // langs/zh_cn.json
 var zh_cn_default = {
   ok: "\u786E\u5B9A",
   cancel: "\u53D6\u6D88",
-  open: "\u6253\u5F00\u5BC6\u7801\u4FDD\u62A4",
-  close_password_protection: "\u5173\u95ED\u5BC6\u7801\u4FDD\u62A4",
-  open_password_protection: "\u6253\u5F00\u5BC6\u7801\u4FDD\u62A4",
-  password_protection_opened: "\u5BC6\u7801\u4FDD\u62A4\u5DF2\u6253\u5F00",
-  password_protection_closed: "\u5BC6\u7801\u4FDD\u62A4\u5DF2\u5173\u95ED",
+  open: "\u5F00\u542F\u5BC6\u7801\u4FDD\u62A4",
+  open_password_protection: "\u5F00\u542F\u5BC6\u7801\u4FDD\u62A4",
+  password_protection_opened: "\u5BC6\u7801\u4FDD\u62A4\u5DF2\u5F00\u542F",
+  password_protection_closed: "\u5BC6\u7801\u9A8C\u8BC1\u901A\u8FC7",
   notice_set_password: "\u8BF7\u5148\u53BB\u5BC6\u7801\u4FDD\u62A4\u63D2\u4EF6\u7684\u8BBE\u7F6E\u9875\u8BBE\u7F6E\u5BC6\u7801",
-  setting_folder_name: "\u9700\u8981\u4FDD\u62A4\u7684\u6587\u4EF6\u5939\u8DEF\u5F84",
-  setting_folder_desc: "\u8F93\u5165\u76F8\u5BF9\u8DEF\u5F84, '/' \u4EE3\u8868\u7B14\u8BB0\u5E93\u7684\u6839\u8DEF\u5F84",
-  place_holder_enter_path: "\u8F93\u5165\u8DEF\u5F84",
+  setting_folder_name: "\u9700\u8981\u4FDD\u62A4\u7684\u6587\u4EF6\u5939\u6216\u6587\u4EF6",
+  setting_folder_desc: "\u9ED8\u8BA4\u503C '/' \u4EE3\u8868\u7B14\u8BB0\u5E93\u7684\u6839\u8DEF\u5F84",
+  place_holder_enter_path: "\u8F93\u5165\u8DEF\u5F84\uFF0C\u6BD4\u5982\uFF1A\u6211\u7684\u7B14\u8BB0/\u65E5\u8BB0",
   setting_toggle_name: "\u5F00\u542F\u6216\u5173\u95ED\u5BC6\u7801\u4FDD\u62A4",
   setting_toggle_desc: "\u5F00\u542F\u4FDD\u62A4\u9700\u8981\u8BBE\u7F6E\u5BC6\u7801\uFF0C\u5173\u95ED\u4FDD\u62A4\u9700\u8981\u9A8C\u8BC1\u5BC6\u7801",
   hint_enter_in_both_boxes: "\u8BF7\u5728\u4E24\u4E2A\u8F93\u5165\u6846\u4E2D\u90FD\u8F93\u5165\u5BC6\u7801",
@@ -557,32 +600,34 @@ var zh_cn_default = {
   verify_password: "\u9A8C\u8BC1\u5BC6\u7801",
   enter_password: "\u8F93\u5165\u4F60\u7684\u5BC6\u7801",
   enter_password_to_verify: "\u8BF7\u8F93\u5165\u5BC6\u7801\u9A8C\u8BC1",
-  password_is_empty: "\u5BC6\u7801\u4E0D\u80FD\u662F\u7A7A\u7684",
+  password_is_empty: "\u5BC6\u7801\u4E0D\u80FD\u662F\u7A7A\u7684\u3002",
   password_not_match: "\u5BC6\u7801\u4E0D\u5339\u914D\u3002",
   password_is_right: "\u5BC6\u7801\u6B63\u786E",
-  auto_lock_interval_name: "\u81EA\u52A8\u6253\u5F00\u5BC6\u7801\u4FDD\u62A4\u7684\u95F4\u9694\u65F6\u95F4",
-  auto_lock_interval_desc: "\u4ECE\u4E0A\u6B21\u5173\u95ED\u5BC6\u7801\u4FDD\u62A4\u6216\u4E0A\u6B21\u6253\u5F00\u4E00\u4E2A\u53D7\u4FDD\u62A4\u7684\u6587\u4EF6\u5F00\u59CB\u8BA1\u7B97\uFF0C0 \u4EE3\u8868\u4E0D\u81EA\u52A8\u6253\u5F00\u5BC6\u7801\u4FDD\u62A4, \u5355\u4F4D\uFF1A\u5206\u949F",
-  forbid_close_verify_modal_name: "\u7981\u6B62\u5173\u95ED\u5BC6\u7801\u9A8C\u8BC1\u6846 (\u5F53\u5BC6\u7801\u4E0D\u6B63\u786E)",
-  forbid_close_verify_modal_desc: "\u8FD9\u5C06\u4FDD\u62A4\u66F4\u591A\u9690\u79C1\uFF0C\u4F46\u662F\u5982\u679C\u4F60\u5FD8\u8BB0\u4E86\u5BC6\u7801\uFF0C\u4F60\u53EF\u80FD\u5C06\u65E0\u6CD5\u8FDB\u5165Obsidian.",
-  before_open_protection: "\u6253\u5F00\u4E0B\u9762\u7684\u5BC6\u7801\u4FDD\u62A4\u5F00\u5173\u540E\uFF0C\u4E0A\u9762\u7684\u8BBE\u7F6E\u5C06\u4E0D\u53EF\u4FEE\u6539.",
+  auto_lock_interval_name: "\u81EA\u52A8\u5F00\u542F\u5BC6\u7801\u4FDD\u62A4\u7684\u95F4\u9694\u65F6\u95F4",
+  auto_lock_interval_desc: "\u4ECE\u4E0A\u6B21\u5173\u95ED\u5BC6\u7801\u4FDD\u62A4\u6216\u4E0A\u6B21\u6253\u5F00\u4E00\u4E2A\u53D7\u4FDD\u62A4\u7684\u6587\u4EF6\u5F00\u59CB\u8BA1\u7B97\uFF0C0 \u4EE3\u8868\u4E0D\u81EA\u52A8\u5F00\u542F\u5BC6\u7801\u4FDD\u62A4, \u5355\u4F4D\uFF1A\u5206\u949F",
+  before_open_protection: "\u6253\u5F00\u4E0A\u9762\u7684\u5BC6\u7801\u4FDD\u62A4\u5F00\u5173\u540E\uFF0C\u4E0B\u9762\u7684\u8BBE\u7F6E\u5C06\u4E0D\u53EF\u4FEE\u6539.",
   setting_pwd_hint_question_name: "\u5BC6\u7801\u63D0\u793A\u95EE\u9898",
   setting_pwd_hint_question_desc: "\u5F53\u4F60\u5FD8\u8BB0\u5BC6\u7801\u65F6\uFF0C\u53EF\u4EE5\u901A\u8FC7\u8FD9\u4E2A\u95EE\u9898\u6765\u63D0\u793A\u4F60\u7684\u5BC6\u7801.",
-  place_holder_enter_pwd_hint_question: "\u8F93\u5165\u5BC6\u7801\u63D0\u793A\u95EE\u9898"
+  place_holder_enter_pwd_hint_question: "\u8F93\u5165\u5BC6\u7801\u63D0\u793A\u95EE\u9898",
+  setting_more_path: "\u66F4\u591A\u9700\u8981\u4FDD\u62A4\u7684\u6587\u4EF6\u5939\u6216\u6587\u4EF6(\u6700\u591A6\u4E2A)",
+  setting_add_path: "\u6DFB\u52A0\u4FDD\u62A4\u8DEF\u5F84",
+  setting_add_path_name: "\u4FDD\u62A4\u8DEF\u5F84",
+  setting_add_path_place_holder: "\u8F93\u5165\u8DEF\u5F84\uFF0C\u6BD4\u5982\uFF1A\u6211\u7684\u7B14\u8BB0/\u65E5\u8BB0",
+  setting_remove_path: "\u79FB\u9664\u4FDD\u62A4\u8DEF\u5F84"
 };
 
 // langs/zh_tw.json
 var zh_tw_default = {
   ok: "\u78BA\u8A8D",
   cancel: "\u53D6\u6D88",
-  open: "\u6253\u958B\u5BC6\u78BC\u4FDD\u8B77",
-  close_password_protection: "\u95DC\u9589\u5BC6\u78BC\u4FDD\u8B77",
-  open_password_protection: "\u6253\u958B\u5BC6\u78BC\u4FDD\u8B77",
-  password_protection_opened: "\u5BC6\u78BC\u4FDD\u8B77\u5DF2\u6253\u958B",
-  password_protection_closed: "\u5BC6\u78BC\u4FDD\u8B77\u5DF2\u95DC\u9589",
+  open: "\u958B\u555F\u5BC6\u78BC\u4FDD\u8B77",
+  open_password_protection: "\u958B\u555F\u5BC6\u78BC\u4FDD\u8B77",
+  password_protection_opened: "\u5BC6\u78BC\u4FDD\u8B77\u5DF2\u958B\u555F",
+  password_protection_closed: "\u5BC6\u78BC\u9A57\u8B49\u901A\u904E",
   notice_set_password: "\u8ACB\u5148\u53BB\u5BC6\u78BC\u4FDD\u8B77\u63D2\u4EF6\u7684\u8A2D\u7F6E\u9801\u8A2D\u7F6E\u5BC6\u78BC",
-  setting_folder_name: "\u9700\u8981\u4FDD\u8B77\u7684\u6587\u4EF6\u593E\u8DEF\u5F91",
-  setting_folder_desc: "\u8F38\u5165\u76F8\u5C0D\u8DEF\u5F91, '/' \u4EE3\u8868\u7B46\u8A18\u5EAB\u7684\u6839\u8DEF\u5F91",
-  place_holder_enter_path: "\u8F38\u5165\u8DEF\u5F91",
+  setting_folder_name: "\u9700\u8981\u4FDD\u8B77\u7684\u6587\u4EF6\u593E\u6216\u6587\u4EF6",
+  setting_folder_desc: "\u9ED8\u8A8D\u503C '/' \u4EE3\u8868\u7B46\u8A18\u5EAB\u7684\u6839\u8DEF\u5F91",
+  place_holder_enter_path: "\u8F38\u5165\u8DEF\u5F91\uFF0C\u6BD4\u5982\uFF1A\u6211\u7684\u7B46\u8A18/\u65E5\u8A18",
   setting_toggle_name: "\u958B\u555F\u6216\u95DC\u9589\u5BC6\u78BC\u4FDD\u8B77",
   setting_toggle_desc: "\u958B\u555F\u4FDD\u8B77\u9700\u8981\u8A2D\u7F6E\u5BC6\u78BC\uFF0C\u95DC\u9589\u4FDD\u8B77\u9700\u8981\u9A57\u8B49\u5BC6\u78BC",
   hint_enter_in_both_boxes: "\u8ACB\u5728\u5169\u500B\u8F38\u5165\u6846\u4E2D\u90FD\u8F38\u5165\u5BC6\u78BC",
@@ -595,22 +640,26 @@ var zh_tw_default = {
   verify_password: "\u9A57\u8B49\u5BC6\u78BC",
   enter_password: "\u8F38\u5165\u4F60\u7684\u5BC6\u78BC",
   enter_password_to_verify: "\u8ACB\u8F38\u5165\u5BC6\u78BC\u9A57\u8B49",
-  password_is_empty: "\u5BC6\u78BC\u4E0D\u80FD\u662F\u7A7A\u7684",
+  password_is_empty: "\u5BC6\u78BC\u4E0D\u80FD\u662F\u7A7A\u7684\u3002",
   password_not_match: "\u5BC6\u78BC\u4E0D\u5339\u914D\u3002",
   password_is_right: "\u5BC6\u78BC\u6B63\u78BA",
-  auto_lock_interval_name: "\u81EA\u52D5\u6253\u958B\u5BC6\u78BC\u4FDD\u8B77\u7684\u9593\u9694\u6642\u9593",
-  auto_lock_interval_desc: "\u5F9E\u4E0A\u6B21\u95DC\u9589\u5BC6\u78BC\u4FDD\u8B77\u6216\u4E0A\u6B21\u6253\u958B\u4E00\u500B\u53D7\u4FDD\u8B77\u7684\u6587\u4EF6\u958B\u59CB\u8A08\u7B97\uFF0C0 \u8868\u793A\u4E0D\u81EA\u52D5\u6253\u958B\u5BC6\u78BC\u4FDD\u8B77\uFF0C\u55AE\u4F4D\uFF1A\u5206\u9418",
-  forbid_close_verify_modal_name: "\u7981\u6B62\u95DC\u9589\u5BC6\u78BC\u9A57\u8B49\u6846 (\u5F53\u5BC6\u78BC\u4E0D\u6B63\u78BA)",
-  forbid_close_verify_modal_desc: "\u9019\u5C07\u4FDD\u8B77\u66F4\u591A\u96B1\u79C1\uFF0C\u4F46\u662F\u5982\u679C\u4F60\u5FD8\u8A18\u4E86\u5BC6\u78BC\uFF0C\u4F60\u53EF\u80FD\u5C06\u7121\u6CD5\u9032\u5165Obsidian.",
-  before_open_protection: "\u6253\u958B\u4E0B\u9762\u7684\u5BC6\u78BC\u4FDD\u8B77\u958B\u95DC\u540E\uFF0C\u4E0A\u9762\u7684\u8A2D\u7F6E\u5C07\u4E0D\u53EF\u4FEE\u6539.",
+  auto_lock_interval_name: "\u81EA\u52D5\u958B\u555F\u5BC6\u78BC\u4FDD\u8B77\u7684\u9593\u9694\u6642\u9593",
+  auto_lock_interval_desc: "\u5F9E\u4E0A\u6B21\u95DC\u9589\u5BC6\u78BC\u4FDD\u8B77\u6216\u4E0A\u6B21\u6253\u958B\u4E00\u500B\u53D7\u4FDD\u8B77\u7684\u6587\u4EF6\u958B\u59CB\u8A08\u7B97\uFF0C0 \u8868\u793A\u4E0D\u81EA\u52D5\u958B\u555F\u5BC6\u78BC\u4FDD\u8B77\uFF0C\u55AE\u4F4D\uFF1A\u5206\u9418",
+  before_open_protection: "\u6253\u958B\u4E0A\u9762\u7684\u5BC6\u78BC\u4FDD\u8B77\u958B\u95DC\u540E\uFF0C\u4E0B\u9762\u7684\u8A2D\u7F6E\u5C07\u4E0D\u53EF\u4FEE\u6539.",
   setting_pwd_hint_question_name: "\u5BC6\u78BC\u63D0\u793A\u554F\u984C",
   setting_pwd_hint_question_desc: "\u7576\u4F60\u5FD8\u8A18\u5BC6\u78BC\u6642\uFF0C\u53EF\u4EE5\u901A\u904E\u9019\u500B\u554F\u984C\u4F86\u63D0\u793A\u4F60\u7684\u5BC6\u78BC.",
-  place_holder_enter_pwd_hint_question: "\u8F38\u5165\u5BC6\u78BC\u63D0\u793A\u554F\u984C"
+  place_holder_enter_pwd_hint_question: "\u8F38\u5165\u5BC6\u78BC\u63D0\u793A\u554F\u984C",
+  setting_more_path: "\u66F4\u591A\u9700\u8981\u4FDD\u8B77\u7684\u6587\u4EF6\u593E\u6216\u6587\u4EF6(\u6700\u591A6\u500B)",
+  setting_add_path: "\u6DFB\u52A0\u4FDD\u8B77\u8DEF\u5F91",
+  setting_add_path_name: "\u4FDD\u8B77\u8DEF\u5F91",
+  setting_add_path_place_holder: "\u8F38\u5165\u8DEF\u5F91\uFF0C\u6BD4\u5982\uFF1A\u6211\u7684\u7B46\u8A18/\u65E5\u8A18",
+  setting_remove_path: "\u79FB\u9664\u4FDD\u8B77\u8DEF\u5F91"
 };
 
 // langs/index.ts
 var LANGS = {
   en: en_default,
+  es: es_default,
   zh_cn: zh_cn_default,
   zh_tw: zh_tw_default
 };
@@ -644,6 +693,7 @@ var I18n = class {
 };
 
 // main.ts
+var ADD_PATH_MAX = 6;
 var PASSWORD_LENGTH_MIN = 1;
 var PASSWORD_LENGTH_MAX = 20;
 var ENCRYPT_KEY = 30;
@@ -651,10 +701,10 @@ var ROOT_PATH = (0, import_obsidian2.normalizePath)("/");
 var SOLID_PASS = "qBjSbeiu2qDNEq5d";
 var DEFAULT_SETTINGS = {
   protectedPath: ROOT_PATH,
+  addedProtectedPath: [],
   protectEnabled: false,
   password: "",
   lang: "auto",
-  forbidClosePassVerifyModal: false,
   autoLockInterval: 0,
   pwdHintQuestion: "",
   isLastVerifyPasswordCorrect: false,
@@ -665,46 +715,63 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
     super(...arguments);
     this.isVerifyPasswordWaitting = false;
     this.isVerifyPasswordCorrect = false;
+    this.isAutoLockRegistered = false;
     this.lastUnlockOrOpenFileTime = null;
-    this.startupFile = [];
-    this.isLayoutReady = true;
     this.t = (x, vars) => {
       return this.i18n.t(x, vars);
+    };
+    this.handleRename = (file, oldPath) => {
+      if (file != null) {
+        if (this.settings.protectEnabled && !this.isVerifyPasswordCorrect && (this.isProtectedFile(oldPath) || this.isProtectedFile(file.path))) {
+          this.verifyPasswordProtection();
+        }
+        if (this.settings.protectEnabled && this.isProtectedFile(oldPath)) {
+          this.ReplaceProtectedPath(oldPath, file.path);
+        }
+        if (this.settings.protectEnabled && this.isVerifyPasswordCorrect) {
+          this.lastUnlockOrOpenFileTime = (0, import_obsidian2.moment)();
+        }
+      }
+    };
+    // process the save event of file modified.
+    this.handleFileModify = (file) => {
+      this.lastUnlockOrOpenFileTime = (0, import_obsidian2.moment)();
     };
   }
   async onload() {
     await this.loadSettings();
     this.lastUnlockOrOpenFileTime = (0, import_obsidian2.moment)();
+    this.settings.protectedPath = this.settings.protectedPath.trim();
+    if (this.settings.protectedPath.length == 0) {
+      this.settings.protectedPath = ROOT_PATH;
+    }
+    if (this.settings.addedProtectedPath.length > ADD_PATH_MAX) {
+      this.settings.addedProtectedPath.slice(ADD_PATH_MAX, this.settings.addedProtectedPath.length - ADD_PATH_MAX);
+    }
+    this.settings.addedProtectedPath = this.settings.addedProtectedPath.filter((str) => str.trim() !== "");
     this.i18n = new I18n(this.settings.lang, async (lang) => {
       this.settings.lang = lang;
       await this.saveSettings();
     });
-    if (this.settings.protectEnabled) {
-      this.passwordRibbonBtn = this.addRibbonIcon("unlock", this.t("close_password_protection"), (evt) => {
-        this.switchPasswordProtection();
-      });
-    } else {
-      this.passwordRibbonBtn = this.addRibbonIcon("lock", this.t("open_password_protection"), (evt) => {
-        this.switchPasswordProtection();
-      });
-    }
+    this.passwordRibbonBtn = this.addRibbonIcon("lock", this.t("open_password_protection"), (evt) => {
+      this.openPasswordProtection();
+    });
     this.addCommand({
       id: "Open password protection",
       name: this.t("open"),
       callback: () => {
-        this.openPasswordProtection();
+        this.enablePasswordProtection();
       }
     });
     this.addSettingTab(new PasswordSettingTab(this.app, this));
     this.app.workspace.onLayoutReady(() => {
-      if (this.settings.protectEnabled && this.settings.protectedPath == ROOT_PATH) {
+      if (this.settings.protectEnabled && this.isIncludeRootPath()) {
         if (!this.isVerifyPasswordCorrect) {
-          this.closeLeaves();
           let curTime = (0, import_obsidian2.moment)();
           if (curTime.diff(this.settings.timeOnUnload, "second") <= 2 && this.settings.isLastVerifyPasswordCorrect) {
             this.isVerifyPasswordCorrect = true;
           } else {
-            this.verifyToClosePasswordProtection();
+            this.verifyPasswordProtection();
           }
         }
       }
@@ -712,12 +779,8 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
     this.registerEvent(this.app.workspace.on("file-open", (file) => {
       if (file != null) {
         this.autoLockCheck();
-        if (this.settings.protectEnabled && !this.isVerifyPasswordCorrect && this.isProtectedFile(file)) {
-          if (this.isLayoutReady && this.isVerifyPasswordWaitting) {
-            this.startupFile.push(file);
-          }
-          this.closeLeave(file);
-          this.closePasswordProtection(file);
+        if (this.settings.protectEnabled && !this.isVerifyPasswordCorrect && this.isProtectedFile(file.path)) {
+          this.verifyPasswordProtection();
         }
         if (this.settings.protectEnabled && this.isVerifyPasswordCorrect) {
           this.lastUnlockOrOpenFileTime = (0, import_obsidian2.moment)();
@@ -730,7 +793,7 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
         if (viewType == "search") {
           this.autoLockCheck();
           if (this.settings.protectEnabled && !this.isVerifyPasswordCorrect) {
-            this.verifyToClosePasswordProtection();
+            this.verifyPasswordProtection();
           }
           if (this.settings.protectEnabled && this.isVerifyPasswordCorrect) {
             this.lastUnlockOrOpenFileTime = (0, import_obsidian2.moment)();
@@ -738,50 +801,48 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
         }
       }
     }));
-    if (this.settings.protectEnabled && this.settings.autoLockInterval > 0) {
-      this.registerInterval(window.setInterval(() => this.autoLockCheck(), 10 * 1e3));
-    }
+    this.app.vault.on("rename", this.handleRename);
+    this.app.vault.on("modify", this.handleFileModify);
+    this.registerAutoLock();
   }
   async onunload() {
+    this.app.vault.off("modify", this.handleFileModify);
+    this.app.vault.off("rename", this.handleRename);
     this.settings.isLastVerifyPasswordCorrect = this.isVerifyPasswordCorrect;
     this.settings.timeOnUnload = (0, import_obsidian2.moment)();
     await this.saveSettings();
+  }
+  registerAutoLock() {
+    if (this.settings.protectEnabled && this.settings.autoLockInterval > 0 && !this.isAutoLockRegistered) {
+      this.isAutoLockRegistered = true;
+      this.registerInterval(window.setInterval(() => this.autoLockCheck(), 10 * 1e3));
+    }
   }
   autoLockCheck() {
     if (this.settings.protectEnabled && this.isVerifyPasswordCorrect && this.settings.autoLockInterval > 0) {
       let curTime = (0, import_obsidian2.moment)();
       if (curTime.diff(this.lastUnlockOrOpenFileTime, "minute") >= this.settings.autoLockInterval) {
-        this.isVerifyPasswordCorrect = false;
-      }
-    }
-  }
-  // open note
-  async openLeave(file) {
-    let leaf = this.app.workspace.getLeaf(false);
-    if (leaf != null) {
-      leaf.openFile(file);
-    }
-  }
-  // close a note
-  async closeLeave(file) {
-    let leaves = [];
-    this.app.workspace.iterateAllLeaves((leaf) => {
-      leaves.push(leaf);
-    });
-    const emptyLeaf = async (leaf) => {
-      leaf.setViewState({ type: "empty" });
-    };
-    for (const leaf of leaves) {
-      if (leaf != null && leaf.view instanceof import_obsidian2.FileView) {
-        if (leaf.view.file != null) {
-          if (leaf.view.file.path == file.path) {
-            await emptyLeaf(leaf);
-            leaf.detach();
-            break;
-          }
+        if (this.isProtectFileOpened()) {
+          this.isVerifyPasswordCorrect = false;
+          this.verifyPasswordProtection();
+        } else {
+          this.isVerifyPasswordCorrect = false;
         }
       }
     }
+  }
+  // check if the file opened need to be protected.
+  isProtectFileOpened() {
+    let leaves = [];
+    let isOpened = false;
+    this.app.workspace.iterateAllLeaves((leaf) => {
+      if (leaf.view instanceof import_obsidian2.FileView && leaf.view.file != null) {
+        if (!isOpened) {
+          isOpened = this.isProtectedFile(leaf.view.file.path);
+        }
+      }
+    });
+    return isOpened;
   }
   // close notes
   async closeLeaves() {
@@ -794,7 +855,7 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
     };
     for (const leaf of leaves) {
       if (leaf.view instanceof import_obsidian2.FileView && leaf.view.file != null) {
-        let needClose = this.isProtectedFile(leaf.view.file);
+        let needClose = this.isProtectedFile(leaf.view.file.path);
         if (needClose) {
           await emptyLeaf(leaf);
           leaf.detach();
@@ -802,19 +863,18 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
       }
     }
   }
-  // open or close password protection
-  switchPasswordProtection() {
-    if (this.settings.protectEnabled) {
-      if (!this.isVerifyPasswordCorrect) {
-        this.verifyToClosePasswordProtection();
-      } else {
-        this.openPasswordProtection();
-      }
+  // enable password protection
+  enablePasswordProtection() {
+    if (!this.settings.protectEnabled) {
+      new import_obsidian2.Notice(this.t("notice_set_password"));
     } else {
-      this.openPasswordProtection();
+      if (this.isVerifyPasswordCorrect) {
+        this.isVerifyPasswordCorrect = false;
+        this.closeLeaves();
+      }
     }
   }
-  // open password protection
+  // open or guide in password protection
   openPasswordProtection() {
     if (!this.settings.protectEnabled) {
       new import_obsidian2.Notice(this.t("notice_set_password"));
@@ -822,66 +882,115 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
       if (this.isVerifyPasswordCorrect) {
         this.isVerifyPasswordCorrect = false;
       }
-      this.closeLeaves();
-      (0, import_obsidian2.setIcon)(this.passwordRibbonBtn, "unlock");
-      this.passwordRibbonBtn.ariaLabel = this.t("close_password_protection");
-      new import_obsidian2.Notice(this.t("password_protection_opened"));
+      this.verifyPasswordProtection();
     }
   }
-  // close password protection
-  closePasswordProtection(file) {
+  // verify password protection
+  verifyPasswordProtection() {
     if (!this.isVerifyPasswordWaitting) {
       const setModal = new VerifyPasswordModal(this.app, this, () => {
         if (this.isVerifyPasswordCorrect) {
-          this.openLeave(file);
-          (0, import_obsidian2.setIcon)(this.passwordRibbonBtn, "lock");
-          this.passwordRibbonBtn.ariaLabel = this.t("open_password_protection");
           new import_obsidian2.Notice(this.t("password_protection_closed"));
+        } else {
+          this.closeLeaves();
         }
       }).open();
     }
   }
-  verifyToClosePasswordProtection() {
-    if (!this.isVerifyPasswordWaitting) {
-      const setModal = new VerifyPasswordModal(this.app, this, () => {
-        if (this.isVerifyPasswordCorrect) {
-          (0, import_obsidian2.setIcon)(this.passwordRibbonBtn, "lock");
-          this.passwordRibbonBtn.ariaLabel = this.t("open_password_protection");
-          new import_obsidian2.Notice(this.t("password_protection_closed"));
-          if (this.isLayoutReady) {
-            this.isLayoutReady = false;
-            for (const file of this.startupFile) {
-              if (file != null) {
-                this.openLeave(file);
-              }
-            }
-            this.startupFile = [];
-          }
-        }
-      }).open();
-    }
-  }
-  // close password protection
-  disableProtection() {
-    (0, import_obsidian2.setIcon)(this.passwordRibbonBtn, "lock");
-    this.passwordRibbonBtn.ariaLabel = this.t("open_password_protection");
-  }
-  // check if the file need to be protected
-  isProtectedFile(file) {
-    if (file.path == "") {
-      return false;
-    }
-    let path = (0, import_obsidian2.normalizePath)(file.path);
-    path = ROOT_PATH + path;
-    const lastSlashIndex = path.lastIndexOf("/");
-    let filePath = path.substring(0, lastSlashIndex + 1);
-    if (filePath.length < this.settings.protectedPath.length) {
-      return false;
-    }
-    if (filePath.startsWith(this.settings.protectedPath)) {
+  // check if the root folder need to be protected
+  isIncludeRootPath() {
+    if (this.settings.protectedPath == ROOT_PATH) {
       return true;
     }
+    for (let i = 0; i < this.settings.addedProtectedPath.length; i++) {
+      if (this.settings.addedProtectedPath[i] == ROOT_PATH) {
+        return true;
+      }
+    }
     return false;
+  }
+  // check if the filepath need to be protected
+  isProtectedFile(filePath) {
+    if (filePath == "") {
+      return false;
+    }
+    if (this.isIncludeRootPath()) {
+      return true;
+    }
+    let path = (0, import_obsidian2.normalizePath)(filePath);
+    let protectedPath = (0, import_obsidian2.normalizePath)(this.settings.protectedPath);
+    if (this.IsChildPath(path, protectedPath)) {
+      return true;
+    }
+    for (let i = 0; i < this.settings.addedProtectedPath.length; i++) {
+      protectedPath = (0, import_obsidian2.normalizePath)(this.settings.addedProtectedPath[i]);
+      if (protectedPath.length == 0) {
+        continue;
+      }
+      if (path.length < protectedPath.length) {
+        continue;
+      }
+      if (this.IsChildPath(path, protectedPath)) {
+        return true;
+      }
+    }
+    return false;
+  }
+  // check if the protectedPath is the child part of path.
+  IsChildPath(path, protectedPath) {
+    if (protectedPath.length > 0 && path.length >= protectedPath.length) {
+      if (path.toLowerCase().startsWith(protectedPath.toLowerCase())) {
+        if (path.length == protectedPath.length) {
+          return true;
+        } else {
+          if (path[protectedPath.length] == "/" || path[protectedPath.length] == "\\" || path[protectedPath.length] == ".") {
+            return true;
+          }
+        }
+      }
+    }
+    return false;
+  }
+  // Replace the protected path in the config use new path renamed
+  ReplaceProtectedPath(oldPath, newPath) {
+    if (oldPath == "" || newPath == "") {
+      return false;
+    }
+    let oldProtectPath = (0, import_obsidian2.normalizePath)(this.removeFileExtension(oldPath));
+    let newProtectPath = (0, import_obsidian2.normalizePath)(this.removeFileExtension(newPath));
+    let protectedPath = "";
+    if (this.settings.protectedPath.trim() != ROOT_PATH) {
+      protectedPath = (0, import_obsidian2.normalizePath)(this.settings.protectedPath);
+      if (oldProtectPath.toLowerCase() == protectedPath.toLowerCase()) {
+        this.settings.protectedPath = newProtectPath;
+        this.saveSettings();
+        return true;
+      }
+    }
+    for (let i = 0; i < this.settings.addedProtectedPath.length; i++) {
+      protectedPath = this.settings.addedProtectedPath[i];
+      if (protectedPath.trim() != ROOT_PATH) {
+        protectedPath = (0, import_obsidian2.normalizePath)(protectedPath);
+        if (oldProtectPath.toLowerCase() == protectedPath.toLowerCase()) {
+          this.settings.addedProtectedPath[i] = newProtectPath;
+          this.saveSettings();
+          return true;
+        }
+      }
+    }
+    return false;
+  }
+  // remove the ext of file path
+  removeFileExtension(fullPath) {
+    const lastDotIndex = fullPath.lastIndexOf(".");
+    const lastSeparatorIndex = Math.max(
+      fullPath.lastIndexOf("/"),
+      fullPath.lastIndexOf("\\")
+    );
+    if (lastDotIndex === -1 || lastDotIndex <= lastSeparatorIndex) {
+      return fullPath;
+    }
+    return fullPath.substring(0, lastDotIndex);
   }
   // encrypt password
   encrypt(text, key) {
@@ -923,23 +1032,39 @@ var PasswordPlugin = class extends import_obsidian2.Plugin {
 var PasswordSettingTab = class extends import_obsidian2.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
+    this.pathInputSettings = [];
     this.plugin = plugin;
   }
   display() {
     const { containerEl } = this;
     containerEl.empty();
-    new import_obsidian2.Setting(containerEl).setName(this.plugin.t("setting_folder_name")).setDesc(this.plugin.t("setting_folder_desc")).addText((text) => text.setPlaceholder(this.plugin.t("place_holder_enter_path")).setValue(this.plugin.settings.protectedPath).onChange(async (value) => {
-      let path = (0, import_obsidian2.normalizePath)(value);
-      if (path != ROOT_PATH) {
-        path = ROOT_PATH + path + "/";
-      }
-      this.plugin.settings.protectedPath = path;
-    })).setDisabled(this.plugin.settings.protectEnabled);
-    new import_obsidian2.Setting(containerEl).setName(this.plugin.t("forbid_close_verify_modal_name")).setDesc(this.plugin.t("forbid_close_verify_modal_desc")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.forbidClosePassVerifyModal).onChange((value) => {
-        this.plugin.settings.forbidClosePassVerifyModal = value;
+    new import_obsidian2.Setting(containerEl).setName(this.plugin.t("setting_toggle_name")).setDesc(this.plugin.t("setting_toggle_desc")).addToggle(
+      (toggle) => toggle.setValue(this.plugin.settings.protectEnabled).onChange((value) => {
+        if (value) {
+          this.plugin.settings.protectEnabled = false;
+          const setModal = new SetPasswordModal(this.app, this.plugin, () => {
+            if (this.plugin.settings.protectEnabled) {
+              this.plugin.isVerifyPasswordCorrect = false;
+              this.plugin.saveSettings();
+              this.plugin.closeLeaves();
+              this.plugin.registerAutoLock();
+            }
+            this.display();
+          }).open();
+        } else {
+          if (!this.plugin.isVerifyPasswordWaitting) {
+            const setModal = new VerifyPasswordModal(this.app, this.plugin, () => {
+              if (this.plugin.isVerifyPasswordCorrect) {
+                this.plugin.settings.protectEnabled = false;
+                this.plugin.saveSettings();
+              }
+              this.display();
+            }).open();
+          }
+        }
       })
-    ).setDisabled(this.plugin.settings.protectEnabled);
+    );
+    containerEl.createEl("h6", { text: this.plugin.t("before_open_protection") });
     new import_obsidian2.Setting(containerEl).setName(this.plugin.t("auto_lock_interval_name")).setDesc(this.plugin.t("auto_lock_interval_desc")).addText((text) => text.setPlaceholder("0").setValue(this.plugin.settings.autoLockInterval.toString()).onChange(async (value) => {
       value = value.replace(/[^0-9]/g, "");
       if (value) {
@@ -955,32 +1080,50 @@ var PasswordSettingTab = class extends import_obsidian2.PluginSettingTab {
       }
       this.plugin.settings.pwdHintQuestion = value;
     })).setDisabled(this.plugin.settings.protectEnabled);
-    containerEl.createEl("h6", { text: this.plugin.t("before_open_protection") });
-    new import_obsidian2.Setting(containerEl).setName(this.plugin.t("setting_toggle_name")).setDesc(this.plugin.t("setting_toggle_desc")).addToggle(
-      (toggle) => toggle.setValue(this.plugin.settings.protectEnabled).onChange((value) => {
-        if (value) {
-          this.plugin.settings.protectEnabled = false;
-          const setModal = new SetPasswordModal(this.app, this.plugin, () => {
-            if (this.plugin.settings.protectEnabled) {
-              this.plugin.saveSettings();
-              this.plugin.openPasswordProtection();
-            }
-            this.display();
-          }).open();
-        } else {
-          if (!this.plugin.isVerifyPasswordWaitting) {
-            const setModal = new VerifyPasswordModal(this.app, this.plugin, () => {
-              if (this.plugin.isVerifyPasswordCorrect) {
-                this.plugin.settings.protectEnabled = false;
-                this.plugin.saveSettings();
-                this.plugin.disableProtection();
-              }
-              this.display();
-            }).open();
-          }
-        }
-      })
-    );
+    new import_obsidian2.Setting(containerEl).setName(this.plugin.t("setting_folder_name")).setDesc(this.plugin.t("setting_folder_desc")).addText((text) => text.setPlaceholder(this.plugin.t("place_holder_enter_path")).setValue(this.plugin.settings.protectedPath).onChange(async (value) => {
+      let path = value.trim();
+      if (path == "") {
+        path = ROOT_PATH;
+      }
+      this.plugin.settings.protectedPath = path;
+    })).setDisabled(this.plugin.settings.protectEnabled);
+    new import_obsidian2.Setting(containerEl).setName(this.plugin.t("setting_more_path")).setDesc("").addButton((button) => button.setButtonText(this.plugin.t("setting_add_path")).onClick(async () => {
+      if (this.plugin.settings.addedProtectedPath.length < ADD_PATH_MAX) {
+        this.addPathInput(this.plugin.settings.addedProtectedPath.length, "");
+        this.plugin.settings.addedProtectedPath.push("");
+        this.plugin.saveSettings();
+      }
+    }).setDisabled(this.plugin.settings.protectEnabled || this.plugin.settings.addedProtectedPath.length >= ADD_PATH_MAX)).addButton((button) => button.setButtonText(this.plugin.t("setting_remove_path")).onClick(async () => {
+      if (this.plugin.settings.addedProtectedPath.length > 0) {
+        this.removePathInput();
+        this.plugin.settings.addedProtectedPath.pop();
+        this.plugin.saveSettings();
+      }
+    }).setDisabled(this.plugin.settings.protectEnabled || this.plugin.settings.addedProtectedPath.length >= ADD_PATH_MAX));
+    for (let i = 0; i < this.plugin.settings.addedProtectedPath.length && i < ADD_PATH_MAX; i++) {
+      this.addPathInput(i, this.plugin.settings.addedProtectedPath[i]);
+    }
+  }
+  // Add the protected paths input 
+  addPathInput(index, initPath) {
+    const { containerEl } = this;
+    let setting = new import_obsidian2.Setting(containerEl).setName(this.plugin.t("setting_add_path_name")).setClass("setting_add_path_input").addText((text) => text.setPlaceholder(this.plugin.t("setting_add_path_place_holder")).setValue(initPath).onChange(async (value) => {
+      let path = value.trim();
+      if (path == "") {
+        path = ROOT_PATH;
+      }
+      this.plugin.settings.addedProtectedPath[index] = path;
+    })).setDisabled(this.plugin.settings.protectEnabled);
+    this.pathInputSettings.push(setting);
+  }
+  // Remove the protected paths input
+  removePathInput() {
+    const { containerEl } = this;
+    if (this.pathInputSettings.length == 0) {
+      return;
+    }
+    let pathInput = this.pathInputSettings.pop();
+    containerEl.removeChild(pathInput.settingEl);
   }
 };
 var SetPasswordModal = class extends import_obsidian2.Modal {
@@ -1087,13 +1230,9 @@ var VerifyPasswordModal = class extends import_obsidian2.Modal {
     this.onSubmit = onSubmit;
   }
   onOpen() {
-    if (this.plugin.settings.protectEnabled && this.plugin.settings.forbidClosePassVerifyModal) {
-      const { modalEl } = this;
-      const closeButton = modalEl.getElementsByClassName("modal-close-button")[0];
-      if (closeButton != null) {
-        closeButton.setAttribute("style", "display: none;");
-      }
-    }
+    Object.assign(this.app.workspace.containerEl.style, {
+      filter: "blur(8px)"
+    });
     const { contentEl } = this;
     contentEl.empty();
     contentEl.createEl("h2", { text: this.plugin.t("verify_password") });
@@ -1102,7 +1241,6 @@ var VerifyPasswordModal = class extends import_obsidian2.Modal {
     const pwInputEl = inputPwContainerEl.createEl("input", { type: "password", value: "" });
     pwInputEl.placeholder = this.plugin.t("enter_password");
     pwInputEl.style.width = "70%";
-    pwInputEl.focus();
     const messageEl = contentEl.createDiv();
     messageEl.style.marginBottom = "1em";
     messageEl.setText(this.plugin.t("enter_password_to_verify"));
@@ -1113,7 +1251,7 @@ var VerifyPasswordModal = class extends import_obsidian2.Modal {
     });
     const pwConfirmChecker = () => {
       if (pwInputEl.value == "") {
-        messageEl.style.color = "yellow";
+        messageEl.style.color = "red";
         messageEl.setText(this.plugin.t("password_is_empty"));
         return false;
       }
@@ -1156,19 +1294,17 @@ var VerifyPasswordModal = class extends import_obsidian2.Modal {
       pwChecker(null);
     }));
   }
+  restoreBlur() {
+    Object.assign(this.app.workspace.containerEl.style, {
+      filter: "blur(0px)"
+    });
+  }
   onClose() {
     this.plugin.isVerifyPasswordWaitting = false;
     const { contentEl } = this;
     contentEl.empty();
-    if (this.plugin.settings.protectEnabled && this.plugin.settings.forbidClosePassVerifyModal) {
-      if (!this.plugin.isVerifyPasswordCorrect) {
-        const setModal = new VerifyPasswordModal(this.app, this.plugin, this.onSubmit).open();
-      } else {
-        this.onSubmit();
-      }
-    } else {
-      this.onSubmit();
-    }
+    this.restoreBlur();
+    this.onSubmit();
   }
 };
 /*! Bundled license information:

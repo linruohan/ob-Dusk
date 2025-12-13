@@ -179,16 +179,6 @@
             }
           },
           {
-            "id": "6bf45c4c9963e3b0",
-            "type": "leaf",
-            "state": {
-              "type": "journal-calendar",
-              "state": {},
-              "icon": "calendar-days",
-              "title": "Calendar"
-            }
-          },
-          {
             "id": "c0698ab85b3ddb7e",
             "type": "leaf",
             "state": {
@@ -201,6 +191,16 @@
               },
               "icon": "lucide-tags",
               "title": "标签"
+            }
+          },
+          {
+            "id": "167cc2fbfb49f1d7",
+            "type": "leaf",
+            "state": {
+              "type": "journal-calendar",
+              "state": {},
+              "icon": "calendar-days",
+              "title": "Calendar"
             }
           }
         ],
@@ -279,6 +279,7 @@
   "active": "13beed6a49a793f4",
   "lastOpenFiles": [
     "DAILY/DAILY/2025-12-12.md",
+    "HUB/Homepage.md",
     "PARA/PROJECTS/测试项目1/1. 测试项目1.md",
     "HUB/Mail Box.md",
     "SYSTEM/GETTING STARTED/Getting Started.md",
@@ -290,7 +291,6 @@
     "SYSTEM/GETTING STARTED/Vault Onboarding Part 2 - Structure Concept.md",
     "PARA/PROJECTS/测试项目1",
     "HUB/Map of Content.md",
-    "HUB/Homepage.md",
     "PARA/RESOURCES/CONCEPT MAP/Chatbot Diagram.md",
     "PARA/RESOURCES/MEETINGS/GENERAL/11-12 - Artificial Intelligence in Autonomous Vehicles.md",
     "PARA/AREAS/思考/2. 思考.md",

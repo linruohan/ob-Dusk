@@ -43,7 +43,7 @@ var Spooler = class {
         this.spoolFix(0);
       }
     });
-    this.spoolFix(5e3);
+    this.spoolFix(0);
   }
   /**
    * Disable automatic spooling.
@@ -276,6 +276,7 @@ async function initializeRows(plugin, settingsContainer) {
     entry.appendChild(handle);
     const formattedName = row.name.replace(/^plugin-(obsidian-)?/, "").split("-").map((x) => x.charAt(0).toUpperCase() + x.slice(1)).join(" ") + (nameCollisions[row.name] ? ` (${row.index})` : "");
     const titleSpan = document.createElement("span");
+    titleSpan.addClass("statusbar-organizer-row-title");
     titleSpan.textContent = formattedName;
     entry.appendChild(titleSpan);
     const previewSpan = document.createElement("span");
@@ -333,8 +334,10 @@ function cloneRow(settingsContainer, barStatus, existsStatus, rowsContainer, eve
   if (!barStatus[row.id].visible)
     fauxEntry.addClass("statusbar-organizer-row-hidden");
   settingsContainer.appendChild(fauxEntry);
-  fauxEntry.style.left = realEntry.getBoundingClientRect().left + "px";
-  fauxEntry.style.top = realEntry.getBoundingClientRect().top + "px";
+  const containerX = settingsContainer.getBoundingClientRect().left;
+  const containerY = settingsContainer.getBoundingClientRect().top;
+  fauxEntry.style.left = realEntry.getBoundingClientRect().left - containerX + "px";
+  fauxEntry.style.top = realEntry.getBoundingClientRect().top - containerY + "px";
   fauxEntry.style.width = realEntry.offsetWidth + "px";
   for (const child of Array.from(realEntry.children)) {
     const fauxSpan = document.createElement("span");
@@ -348,8 +351,8 @@ function cloneRow(settingsContainer, barStatus, existsStatus, rowsContainer, eve
   return {
     stationaryRow: realEntry,
     movableRow: fauxEntry,
-    offsetX,
-    offsetY,
+    offsetX: offsetX + containerX,
+    offsetY: offsetY + containerY,
     index
   };
 }
@@ -642,7 +645,7 @@ function upgrade(settings) {
     version = ver(0, 0, 0);
   }
   getUpgradeList(upgrades, version).forEach((x) => x.upgrade(settings));
-  settings.version = "2.1.2";
+  settings.version = "2.1.4";
 }
 registerUpdate(ver(2, 0, 0), (settings) => {
   const oldSettings = settings;
@@ -669,7 +672,7 @@ var DEFAULT_SETTINGS = {
     "Default": {}
   },
   presetsOrder: ["Default"],
-  version: "2.1.2"
+  version: "2.1.4"
 };
 var StatusBarOrganizer = class extends import_obsidian4.Plugin {
   async onload() {
@@ -685,7 +688,6 @@ var StatusBarOrganizer = class extends import_obsidian4.Plugin {
   }
   async loadSettings() {
     const savedData = await this.loadData() || {};
-    console.log(savedData);
     if (Object.keys(savedData).length != 0 && !("version" in savedData))
       savedData["version"] = "0.0.0";
     this.settings = Object.assign({}, DEFAULT_SETTINGS, savedData);
@@ -706,3 +708,5 @@ var StatusBarSettingTab = class extends import_obsidian4.PluginSettingTab {
     return showSettings(this.plugin, containerEl);
   }
 };
+
+/* nosourcemap */
