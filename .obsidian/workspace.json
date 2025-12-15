@@ -8,89 +8,23 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a252316a54aef0a8",
+            "id": "e7369b233880af5a",
             "type": "leaf",
             "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HUB/Map of Content.md",
+                "file": "HUB/Homepage.md",
                 "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
               "pinned": true,
               "icon": "lucide-file",
-              "title": "Map of Content"
-            }
-          },
-          {
-            "id": "ab37d3ff09fdb357",
-            "type": "leaf",
-            "state": {
-              "type": "custom-frames-todoist",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "custom-frames-todoist"
-            }
-          },
-          {
-            "id": "a5dfac2b8690d07c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PARA/PROJECTS/测试项目1/1. 测试项目1.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "1. 测试项目1"
-            }
-          },
-          {
-            "id": "827cc1012401d837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "HUB/Mail Box.md",
-                "mode": "preview",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Mail Box"
-            }
-          },
-          {
-            "id": "1d194b7f0473a73d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "DAILY/DAILY/2025-12-15.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "2025-12-15"
-            }
-          },
-          {
-            "id": "0657dedb4cfcee15",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "Homepage"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,6 +38,20 @@
         "type": "tabs",
         "children": [
           {
+            "id": "9d84a3faa202b722",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://chat.deepseek.com/",
+                "title": "DeepSeek - 探索未至之境",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "DeepSeek - 探索未至之境"
+            }
+          },
+          {
             "id": "42f47640edf85bf7",
             "type": "leaf",
             "state": {
@@ -113,7 +61,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "文件列表"
             }
           },
           {
@@ -140,7 +88,7 @@
               "type": "bookmarks",
               "state": {},
               "icon": "lucide-bookmark",
-              "title": "Bookmarks"
+              "title": "书签"
             }
           },
           {
@@ -154,11 +102,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 540
+    "width": 648
   },
   "right": {
     "id": "b8973fe758baa90b",
@@ -300,32 +248,33 @@
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
       "obsidian-projects:打开项目": false,
-      "iconic:打开规则书": false,
+      "iconic:打开规则书": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "custom-sort:Toggle custom sorting": false,
+      "custom-sort:Toggle custom sorting": true,
       "homepage:Open homepage": false,
       "templater-obsidian:Templater": false,
       "pomodoro-timer:Toggle timer panel": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "obsidian-custom-frames:Open Todoist": false,
-      "obsidian-custom-frames:Open ChatGPT": false,
-      "obsidian-custom-frames:Open YouTube": false,
+      "obsidian-trash-explorer:Open trash explorer": true,
+      "obsidian-custom-frames:Open Todoist": true,
+      "obsidian-custom-frames:Open ChatGPT": true,
+      "obsidian-custom-frames:Open YouTube": true,
       "darlal-switcher-plus:Open in Headings Mode": false,
-      "darlal-switcher-plus:Open Symbols for the active editor": false,
+      "darlal-switcher-plus:Open Symbols for the active editor": true,
       "journals:personal-daily:open-today's-note": false
     }
   },
-  "active": "0657dedb4cfcee15",
+  "active": "42f47640edf85bf7",
   "lastOpenFiles": [
     "HUB/Homepage.md",
+    "PARA/WORKSTATION/40 - Obsidian/侧边栏/收件箱.md",
+    "PARA/RESOURCES/CONCEPT MAP/Chatbot Diagram.md",
+    "PARA/WORKSTATION/40 - Obsidian/侧边栏/侧边栏天气预报.md",
+    "HUB/Map of Content.md",
     "DAILY/DAILY/2025-12-15.md",
     "HUB/Mail Box.md",
-    "PARA/WORKSTATION/40 - Obsidian/侧边栏/收件箱.md",
-    "PARA/WORKSTATION/40 - Obsidian/侧边栏/侧边栏天气预报.md",
-    "PARA/WORKSTATION/40 - Obsidian/侧边栏/侧边栏当日日程.md",
-    "HUB/Map of Content.md",
     "PARA/PROJECTS/测试项目1/1. 测试项目1.md",
+    "PARA/WORKSTATION/40 - Obsidian/侧边栏/侧边栏当日日程.md",
     "DAILY/DAILY/2025-12-13.md",
     "PARA/WORKSTATION/40 - Obsidian/主页/00. 主页.md",
     "PARA/WORKSTATION/40 - Obsidian/模板/季度OKR模板.md",
@@ -343,7 +292,6 @@
     "PARA/WORKSTATION/40 - Obsidian/主页/00. 文件管理.md",
     "PARA/WORKSTATION/40 - Obsidian/主页/00. 导航.md",
     "PARA/WORKSTATION/40 - Obsidian/主页/00. 参考汇总.md",
-    "PARA/WORKSTATION/40 - Obsidian/模板/新建代码模板.md",
     "PARA/WORKSTATION/40 - Obsidian/音乐/花妖.mp3",
     "PARA/WORKSTATION/40 - Obsidian/音乐/Loser.mp3",
     "PARA/WORKSTATION/40 - Obsidian/音乐/珠儿.mp3",
