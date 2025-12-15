@@ -29,5 +29,5 @@
   "sync": true,
   "footnotes": false,
   "bases": true,
-  "webviewer": false
+  "webviewer": true
 }

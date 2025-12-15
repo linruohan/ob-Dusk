@@ -1,12 +1,10 @@
 [
   "obsidian-admonition",
-  "obsidian42-brat",
   "obsidian-checklist-plugin",
   "cmdr",
   "custom-sort",
   "datacore",
   "dataview",
-  "editing-toolbar",
   "obsidian-hider",
   "homepage",
   "obsidian-hotkeys-for-specific-files",
@@ -26,7 +24,6 @@
   "nldates-obsidian",
   "obsidian-meta-bind-plugin",
   "iconic",
-  "obsidian-grandfather",
   "obsidian-excalidraw-plugin",
   "obsidian-trash-explorer",
   "obsidian-list-callouts",
@@ -38,10 +35,8 @@
   "obsidian-chartsview-plugin",
   "obsidian-image-toolkit",
   "darlal-switcher-plus",
-  "obsidian-react-components",
   "js-engine",
   "tasks-calendar-wrapper",
-  "obsidian-view-mode-by-frontmatter",
   "note-toolbar",
   "journals"
 ]
