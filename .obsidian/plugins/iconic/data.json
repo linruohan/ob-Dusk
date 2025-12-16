@@ -59,6 +59,10 @@
         "e48d6f6a75497559"
       ]
     },
+    "HUB/Homepage.md": {
+      "color": "red",
+      "icon": "lucide-apple"
+    },
     "PARA": {
       "icon": "lucide-land-plot",
       "unsynced": [
